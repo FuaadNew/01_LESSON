@@ -2,78 +2,89 @@
 <html lang="en">
 
     <head>
-        <meta charset="UTF-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <Meta charset="UTF-8"> 
         <Meta name="author" content = "Fuaad Mohamoud">
         <Meta name="description" content= "The official Website for The Little Taco Shop">        
 
         <title>LTS Official Website</title>
         <link rel="icon" href="html5.png" type="image/x-icon">
-        <link rel="stylesheet" href="/TacoShop/css/style.css" type="text/css">
-        <script src="/js/main.js" defer></script>
+        <link rel="stylesheet" href="main.css" type="text/css">
+
     </head>
 
-    
-        <header class = "header"> 
-            <h1> Little Taco Shop</h1>
 
-            <nav aria-label="primary-navigation">
-            
+        <header> 
+        <h1>Welcome to The Little Taco Shop</h1>
 
-            
-                <ul>
-                   
-                    <li>
-                        <a href="#Menu">Menu</a>
-                    </li>
-        
-                    <li>
-                        <a href="hours.html">Hours</a>
-                    </li>
-
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-
-                </ul>
-                </nav>
-            </header>
+        <nav aria-label="primary-navigation">
 
 
-                <section class = "hero">
-                    <h2>
-                      Bienvenidos!  
-                    </h2>
-                    <figure>
-                        <img src="img/tacos_and_drink_1000x667.png" alt="Tacos and a Drink!" title="We love Tacos" width="1000" height="667">
-        
-                        <figcaption class = "offscreen">
-                            Tacos and a Drink
-                        </figcaption>
-                    </figure>
-                </section>
-          
-    <main class = "main">               
-                    <article id ="Menu" class = "menu">
+
+            <ul>
+                <li>
+                    <a href="#LTS">About LTS</a>
+                </li>
+                <li>
+                    <a href="#Menu">Our Menu</a>
+                </li>
+
+                <li>
+                    <a href="/TacoShop/hours.html">Store Hours</a>
+                </li>
+
+                <li>
+                    <a href="/TacoShop/contact.html">Contact Us</a>
+                </li>
+            </ul>
+            </nav>
+
+            <img src="/TacoShop/img/tacos_and_drink_400x267.png" alt="Tacos and a Drink!" title="We love Tacos" width="400" height="267">
+            <figure>
+                <figcaption>
+                    Tacos and a Drink
+                </figcaption>
+            </figure>
+        </header>
+
+
+            <hr>
+
+            <article id ="LTS">
+
+
+                <h2>About  <abbr title = "Little Taco Shop">LTS</abbr></h2>
+                <p><abbr title="Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time> Our shop was built from a <strong>love of tacos</strong>🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.</p>
+                </article>
+
+                    <h3>Taco Trivia</h3>
+                    <aside>
+                        <details>
+                            <summary>
+                                when did tacos first appear in the United States?
+                            </summary>
+                            <p>Jeffrey M. Pilcher taco historian and professor of history at the Univeristy of Minnesota, says the earlies mention of tacos in the United States are in a newspaper from  <time datetime="1905">1905</time>.</p>
+                            <p>(Source: <a href="https://www.smithsonianmag.com/" >Smithsonian Magazine)</a></p>
+                        </details>
+                    </aside>
+
+
+                    <hr>
+
+
+                    <article id ="Menu">
                         <h2>Our Menu</h2>
                         <table>
-                            <caption class = "offscreen">Our Tacos</caption>
+                            <caption>Our Tacos</caption>
                             <thead>
                                 <tr>
-                                    <th class = "Taco" scope="col">Tacos</th>
-                                    <th scope="col">Quantity</th>
-                                    <th class = "Price" scope="col">Price</th>
+                                    <th>Tacos</th>
+                                    <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                                    <th scope="col">Price</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <!--This TH is a menu_item  -->
-
-                                    <th class ="Crunchy"scope="row" rowspan="3">
+                                    <th scope="row" rowspan="3">
                                         Crunchy
                                     </th>
                                     <td>1</td>
@@ -88,9 +99,7 @@
                                     <td>$3.25</td>
                                 </tr>
                                 <tr>
-                                  <!--This TH is a menu_item  -->
-
-                                    <th class ="Soft" scope="row" rowspan="3">
+                                    <th scope="row" rowspan="3">
                                         Soft
                                     </th>
                                     <td>1</td>
@@ -107,27 +116,20 @@
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <td class = "Chips" colspan="3">
+                                    <td colspan="3">
                                         Chips &amp; Salsa $2
                                     </td>
                                 </tr>
                             </tfoot>
                         </table>
               <br>
-                     
 
-                       <p class = "center"><a href="#">Back to the Top</a></p>
+
+                       <p><a href="#">Back to the Top</a></p>
                     </article>
           <hr>
- </main>   
-   
 
-     <footer class = "footer">
-        <p>
-            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
-             <span class="nowrap">Little Taco Shop</span>
-        </p>
 
-    </footer>  
-    </body> 
-       </html>         
+       <footer><p>Copyright &copy; The Little Taco Shop</p></footer>  
+    </body>    
+       </html>                  
